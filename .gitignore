@@ -2,6 +2,8 @@
 /out-tsc
 
 /node_modules
+/custom-functions/node_modules
+/custom-functions/dist
 /dist
 npm-debug.log*
 yarn-debug.log*
