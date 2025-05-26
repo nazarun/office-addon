@@ -68,7 +68,12 @@ export function logMessage(message: string): string {
   return message;
 }
 
-
+/**
+ * Returns a row of factorials from 0! to N!.
+ * @customfunction FACTORIALROW
+ * @param n The maximum number for which to calculate the factorial.
+ * @returns A row array of factorials from 0! to N!.
+ */
 export function factorialRow(n: number): number[] {
   if (n < 0 || !Number.isFinite(n) || !Number.isInteger(n)) {
     throw new Error("Input must be a non-negative integer.");
